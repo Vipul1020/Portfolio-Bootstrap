@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Portfolio</title>
+    <link rel="stylesheet" href="./Styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    
+</head>
+<body>
+
+<section Navbar>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark" aria-label="Third navbar example">
+
+          <div class="collapse navbar-collapse" id="navbarsExample03">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#Work">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a  class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+            <form role="search">
+              <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+        </div>
+      </nav>
+</section>
+<section id="hero">
+    <div class="px-4 pt-5 bg-primary-subtle text-center border-bottom">
+        <div class="overflow-hidden" style="max-height: 30vh;">
+            <div class="container px-5">
+              <img src="./Images/me.jpg" class="img-me" height="210px" width="200px" alt="Me">
+            </div>
+          </div>
+        
+          <h1 class="display-4 text-body-emphasis">Hello ,I'm <span class="myname">Abhishek Kumar</span><br>Web Developer</h1>
+        <div class="col-lg-6 mx-auto">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+            <button type="button" class="btn btn-outline-primary btn-md px-4 me-sm-3" onclick="window.location.href='CV.pdf';">Download Resume</button>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section id="About">
+    <div class="px-4 py-5 my-4 text-center">
+        <h2 class="display-5 text-body-emphasis">About me</h2>
+        <div class="col-lg-6 mx-auto">
+          <p class="lead mb-4">I am a passionate front-end developer who is willing to get the best desired result possible by always enhancing my skills and never stop learning and contribute in the technical evolution that the world is going through.</p>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-outline-primary btn-md px-4 gap-3" onclick="window.location.href='aboutnew.html';">Read more</button>
+          </div>
+        </div>
+    </div>
+</section>
+
+<section id="Work">
+    <div class=" px-2 py-4 bg-primary-subtle" id="custom-cards">
+        <h2 class="fw-normal">My recent projects</h2>
+    
+        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./Images/project\ 4.png');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Hotel Booking Site</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a href="./Hotel Booking Landing page/Main.html"><img src="https://github.com/twbs.png" width="32" height="32" class="rounded-circle border border-white"></a>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Ranchi</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>14d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./Images/cw.png');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Web Agency Site</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a href="./8.4 Web Design Agency Project/index.html"><img src="https://github.com/twbs.png" width="32" height="32" class="rounded-circle border border-white"></a>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Ranchi</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>11d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+    
+          <div class="col">
+            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('./Images/Project\ 3.png');">
+              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
+                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Parallax Site</h3>
+                <ul class="d-flex list-unstyled mt-auto">
+                  <li class="me-auto">
+                    <a href="./Parallax Messi Site/index.html"><img src="https://github.com/twbs.png" width="32" height="32" class="rounded-circle border border-white"></a>
+                  </li>
+                  <li class="d-flex align-items-center me-3">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
+                    <small>Ranchi</small>
+                  </li>
+                  <li class="d-flex align-items-center">
+                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
+                    <small>8d</small>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</section>
+
+<section id="Skills">
+  <br>
+  <h2 class="text-center fw-normal">Skills</h2>
+  <h3 class="fw-normal">auto-CAD</h3>
+  <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-success" style="width: 80%">80%%</div>
+  </div><br>
+  <h3 class="fw-normal">Graphic Design</h3>
+  <div class="progress" role="progressbar" aria-label="Info example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-info text-dark" style="width: 70%">70%%</div>
+  </div><br>
+  <h3 class="fw-normal">MS-Office</h3>
+  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-warning text-dark" style="width: 100%">100%%</div>
+  </div><br>
+  <h3 class="fw-normal">Content Writing</h3>
+  <div class="progress" role="progressbar" aria-label="Danger example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar bg-danger" style="width: 100%">100%</div>
+  </div><br>
+</section>
+
+<section id="Contact">
+  <div class="my-2 bg-primary-subtle py-5 align-items-stretch"><br>
+      <h1 class="text-body-emphasis text-center">Contact me</h1>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+      <button class="btn btn-outline-primary btn-md px-4 gap-3 align-items-center " type="button"onclick="window.location.href='contactme.html';">
+        Here
+      </button>
+      </div>
+    </div>
+  </div>
+</section>
+    
+</body>
+</html>
